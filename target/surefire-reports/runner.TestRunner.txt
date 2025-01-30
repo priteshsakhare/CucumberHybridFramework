@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 134.9 s <<< FAILURE! -- in runner.TestRunner
+Search functionlity.User searches for a valid product -- Time elapsed: 10.57 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.Search.user_should_get_valid_product_displayed_in_search_result(Search.java:44)
+	at ✽.User should get valid product displayed in search result(file:///D:/eclipse_project/HaloProject/src/test/resources/features/Search.feature:7)
+
